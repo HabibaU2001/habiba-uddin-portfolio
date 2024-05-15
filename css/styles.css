@@ -1,3 +1,37 @@
+body {
+  text-align: center;
+}
+
 h1 {
-  color: red;
+  text-align: center;
+  font-size: 95px;
+  font-family: "Caveat Brush", cursive;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+}
+.navbar-brand {
+  font-family: "Caveat Brush", cursive;
+}
+.btn-branding {
+  background: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.btn-branding:hover {
+  border: 3px solid black;
+  font-weight: bold;
+  transition: 0.5s;
 }
