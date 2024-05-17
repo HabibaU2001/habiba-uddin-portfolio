@@ -78,7 +78,7 @@ p {
 
 .img-preview {
   margin-bottom: 15px;
-  padding: 20px 25px;
+  padding: 20px;
   margin-right: 10px;
 }
 
@@ -87,6 +87,8 @@ p {
   padding: 10px 15px;
   border-radius: 4px;
   color: black;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .project a:hover {
@@ -102,6 +104,10 @@ p {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: black;
   text-align: center;
+}
+.img-fluid {
+  height: 130px;
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {
