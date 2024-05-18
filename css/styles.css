@@ -26,6 +26,15 @@ p {
   font-family: "Roboto Mono", monospace;
 }
 
+.sub-heading-homepage {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 25px;
+  margin-top: 40px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 .habiba-photo {
   max-width: 400px;
   display: block;
@@ -44,10 +53,10 @@ p {
   background: black;
   border-radius: 5px;
   color: white;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 27px;
-  padding: 15px 30px;
-  margin-top: 45px;
+  padding: 25px 40px;
+  margin-top: 60px;
   border: 1px solid black;
   font-family: "Roboto Mono", monospace;
 }
@@ -59,7 +68,7 @@ p {
 }
 
 .hero {
-  margin: 100px 50px;
+  margin: 20px;
 }
 
 .about {
@@ -110,6 +119,18 @@ p {
   max-width: 100%;
 }
 
+.mail {
+  font-size: 40px;
+  color: black;
+  margin: 30px;
+  text-align: center;
+}
+.github {
+  font-size: 40px;
+  color: black;
+  margin: 30px;
+  text-align: center;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 57px;
@@ -122,5 +143,8 @@ p {
   }
   .img-preview {
     margin-bottom: 20px;
+  }
+  .sub-heading-homepage {
+    font-size: 18px;
   }
 }
