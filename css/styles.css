@@ -47,7 +47,7 @@ p {
   font-family: "Caveat Brush", cursive;
   font-size: 27px;
 }
-.btn-branding {
+.button-branding {
   background: black;
   border-radius: 5px;
   color: white;
@@ -59,7 +59,7 @@ p {
   font-family: "Roboto Mono", monospace;
 }
 
-.btn-branding:hover {
+.button-branding:hover {
   border: 1px solid black;
   font-weight: bold;
   transition: 0.1s;
@@ -165,9 +165,44 @@ p {
   text-align: center;
 }
 
+/*project section*/
+
+.project-section {
+  background-color: #f8f9fa;
+  border: 1px solid black;
+}
+
+.project-section p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  margin: 60px 10px;
+}
+
+.work-sub-heading {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.work-img {
+  width: 650px;
+  height: auto;
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+}
+
+.launch-button {
+  padding: 10px 20px;
+  background: black;
+  border: 1px solid black;
+  color: white;
+}
+
 @media (max-width: 768px) {
   h1 {
-    font-size: 57px;
+    font-size: 90px;
   }
   h2 {
     font-size: 20px;

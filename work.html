@@ -31,6 +31,12 @@
       href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
     <title>Habiba Uddin's Portfolio</title>
   </head>
   <body>
@@ -62,7 +68,7 @@
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">Work</a>
+              <a class="nav-link" href="work.html">Work</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -71,66 +77,100 @@
         </div>
       </div>
     </nav>
-    <h1>projects.</h1>
+    <h1>work.</h1>
 
     <!---weather project-->
-    <div class="container">
+    <div class="container project-section">
       <div class="row">
         <div class="col-lg-8 mb-5 mt-5">
+          <h3 class="work-sub-heading">Weather App</h3>
           <img
             src="images/weather.png"
             alt="weather project"
-            class="img-fluid"
+            class="img-fluid work-img"
           />
         </div>
         <div class="col-lg-4 text-center project-details">
-          <h3 class="mt-4 mb-4">Weather App</h3>
           <p>
-            The project provides a weather forecasting service that displays
+            This project provides a weather forecasting service that displays
             current weather information and forecasts for different locations,
             utilising a clean user interface and API integration to fetch and
             present weather data.
           </p>
+          <a
+            href="https://basicsweather.netlify.app/"
+            class="btn launch-button"
+            target="_blank"
+          >
+            Launch Weather App
+          </a>
         </div>
       </div>
+
+      <hr />
 
       <!---world clock-->
       <div class="row">
         <div class="col-lg-8 mb-5 mt-5">
+          <h3 class="work-sub-heading">World-clock App</h3>
           <img
             src="images/world clock.png"
             alt="weather project"
-            class="img-fluid"
+            class="img-fluid work-img"
           />
         </div>
         <div class="col-lg-4 text-center project-details">
-          <h3 class="mt-4 mb-4">World-clock App</h3>
           <p>
             This project displays the current time in various cities around the
             world using Moment.js, providing an easy way to view time zones
             across different locations through a clean interface.
           </p>
+          <a
+            href="https://universal-world-clock-project.netlify.app/"
+            class="btn launch-button"
+            target="_blank"
+          >
+            Launch World-Clock App
+          </a>
         </div>
       </div>
+      <hr />
 
       <!-----ai project-->
       <div class="row">
         <div class="col-lg-8 mb-5 mt-5">
+          <h3 class="work-sub-heading">Ai Poem Generator</h3>
           <img
             src="images/ai poem.png"
             alt="weather project"
-            class="img-fluid"
+            class="img-fluid work-img"
           />
         </div>
         <div class="col-lg-4 text-center project-details">
-          <h3 class="mt-4 mb-4">Ai Poem Generator</h3>
-          <p>
+          <p class="mb-6">
             This project generates poems using artificial intelligence,
             providing unique and creative poetry based on user input through a
             user-friendly interface.
           </p>
+          <a
+            href="https://poem-ai-generator.netlify.app/"
+            class="btn launch-button"
+            target="_blank"
+          >
+            Launch AI-Poem App
+          </a>
         </div>
       </div>
     </div>
+
+    <footer>
+      <a href="mailto:saimauddin20@gmail.com" class="mail text-decoration-none">
+        <i class="fa-solid fa-envelope fa-bounce mt-5"></i>
+      </a>
+
+      <a href="https://github.com/HabibaU2001" class="github" target="_blank">
+        <i class="fa-brands fa-github fa-bounce mt-5"></i>
+      </a>
+    </footer>
   </body>
 </html>
