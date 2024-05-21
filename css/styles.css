@@ -95,7 +95,8 @@ p {
 .container {
   margin-top: 20px;
 }
-.container img {
+/* For images in index.html */
+.project-preview img {
   max-width: 100%;
   height: auto;
   border: 2px solid black;
@@ -103,14 +104,28 @@ p {
   filter: contrast(90%);
 }
 
-.container img:hover {
+.project-preview img:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+/* For images in about.html */
+.habiba-photo img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid black;
+  transition: transform 0.3s, filter 0.3s;
+  filter: contrast(90%);
+}
+
+.habiba-photo img:hover {
   filter: grayscale(0);
   transform: scale(1.2);
 }
 
 .img-preview {
   margin-bottom: 15px;
-  padding: 20px;
+  padding: 10px;
   margin-right: 10px;
 }
 
@@ -142,18 +157,14 @@ p {
   max-width: 100%;
 }
 
-.mail {
-  font-size: 40px;
-  color: black;
-  margin: 30px;
-  text-align: center;
-}
+.mail,
 .github {
   font-size: 40px;
   color: black;
   margin: 30px;
   text-align: center;
 }
+
 @media (max-width: 768px) {
   h1 {
     font-size: 57px;
