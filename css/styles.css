@@ -200,6 +200,40 @@ p {
   color: white;
 }
 
+/* Contact Section*/
+
+.contact-details {
+  border: 1px solid black;
+  margin: 30px 70px;
+}
+
+.contact-mail {
+  margin: 40px;
+}
+
+.socials-sub-heading {
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.contact-icon {
+  font-size: 50px;
+  margin: 15px 10px;
+  display: block;
+}
+
+.contact-socials {
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+  text-decoration: none;
+}
+
+.contact-socials:hover {
+  text-decoration: underline;
+  color: #53a8b6;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 90px;
