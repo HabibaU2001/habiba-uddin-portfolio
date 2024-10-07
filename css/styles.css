@@ -155,9 +155,15 @@ p {
   height: 130px;
   max-width: 100%;
 }
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
 
 .mail,
-.github {
+.github,
+.linkedin {
   font-size: 40px;
   color: black;
   margin: 30px;
@@ -171,6 +177,10 @@ p {
   border: 1px solid black;
 }
 
+h4 {
+  font-size: 17px;
+  font-family: "Roboto Mono", monospace;
+}
 .project-section p {
   font-family: "Roboto Mono", monospace;
   margin-bottom: auto;
